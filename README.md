@@ -1,37 +1,35 @@
-CHECKPOINT 1
+📌 Checkpoint 1 - API Java para Controle de Pacientes
 
-API Java para controle de paciente
+Bem-vindo à API Java para controle de pacientes! Este projeto utiliza Spring Boot e Swagger para facilitar a documentação e o desenvolvimento.
 
+🚀 Instalação
 
-
-Instalação
-Limpar e criar a pasta /target
+Limpe e crie a pasta /target executando o seguinte comando:
 
 mvn clean package
 
-Configuração do Swagger
+⚙️ Configuração do Swagger
 
-https://springdoc.org/properties.html
-
-application.properties
+Para configurar o Swagger, utilize as propriedades abaixo no arquivo application.properties:
 
 springdoc.swagger-ui.path=/
-
 springdoc.swagger-ui.disable-swagger-default-url=true
 
+Mais detalhes sobre a configuração podem ser encontrados na documentação oficial do SpringDoc: SpringDoc Properties
 
-Navegação
+🔍 Navegação
 
-Executar a API
+▶️ Executando a API
 
-Executando Maven
+Para rodar a API com o Maven, utilize o comando:
 
 mvn spring-boot:run
 
-Documentação da API (Swagger)
+📜 Acessando a documentação (Swagger)
 
+Após iniciar a aplicação, acesse a interface do Swagger pelo seguinte link:
 http://localhost:8080/swagger-ui/index.html
 
-REFERENCIAS
+📚 Referências
 
-https://springdoc.org/
+🔗 SpringDoc - Documentação Oficial
